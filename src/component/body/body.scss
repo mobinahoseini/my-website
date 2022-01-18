@@ -1,0 +1,35 @@
+@import "../../style/color";
+@import "../../style/font";
+
+.body-container {
+  padding: 56px 0px;
+}
+
+.body-img {
+    display: flex;
+  justify-content: right;
+  img {
+    width: 450px;
+    height: 450px;
+  }
+}
+
+.body-text > p {
+  text-align: justify;
+  font-family: "Header";
+  font-size: 36px;
+  color: $black;
+}
+
+.body-action {
+  text-align: left;
+  margin-top: 40px;
+  button {
+    background-color: $primary;
+    color: $white;
+    border: 0;
+    padding: 12px 16px;
+    font-family: "Button";
+    font-size: 20px;
+  }
+}
