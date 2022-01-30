@@ -3,14 +3,17 @@
 .text-nav {
   padding: 0px 20px;
 
-  p {
+  a {
     color: $black;
     font-family: "Body-2";
     font-size: 20px;
     cursor: pointer;
+    text-decoration: none;
   }
-  p:hover {
+  a:hover {
     border-bottom: 2px solid $primary;
+    font-family: "Button";
+    color:$primary;
     -webkit-transition: 0.4s;
     transition: 0.4s;
   }

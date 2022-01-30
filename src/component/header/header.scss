@@ -1,6 +1,18 @@
-
-
 .logo {
   display: flex;
   justify-content: left;
+}
+.side-navbar {
+  display: none;
+}
+
+@media only screen and (max-width: 900px) {
+  .sw {
+    display: none !important;
+  }
+
+  .side-navbar {
+    display: flex;
+    justify-content: right;
+  }
 }

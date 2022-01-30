@@ -11,7 +11,7 @@ const Body = () => {
       <Row className="align-items-center">
         <Col>
           <div className="body-text">
-            <p className="Header">
+            <p className="header">
               I design & develop experiences that make people’ s lives simple
             </p>
           </div>
@@ -25,7 +25,9 @@ const Body = () => {
           </div>
         </Col>
         <Col md="auto">
-          <SocialMedia />
+          <div className="soci-med">
+            <SocialMedia />
+          </div>
         </Col>
       </Row>
     </Container>
