@@ -1,9 +1,15 @@
+@import "../../style/color";
+
 .logo {
   display: flex;
   justify-content: left;
 }
 .side-navbar {
   display: none;
+}
+
+.svg-logo{
+  fill: $main;
 }
 
 @media only screen and (max-width: 900px) {

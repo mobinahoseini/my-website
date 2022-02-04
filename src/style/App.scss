@@ -1,35 +1,66 @@
 @import "./font";
 @import "./color";
-@import '../component/header/header.scss';
+@import "../component/header/header.scss";
 
 body,
 html {
   user-select: none;
   overscroll-behavior: none;
   margin: 0;
-  font-family:"Header", "Button", "Body-1", "Body-2", "Header-Mobile", "Button-Mobile", "Caption" ;
+  font-family: "Header", "Button", "Body-1", "Body-2", "Header-Mobile",
+    "Button-Mobile", "Caption";
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-.App {
+#app {
   text-align: center;
-  background: linear-gradient(356.92deg, rgba(254, 254, 227, 0.1143) 2.13%, rgba(254, 254, 205, 0.4) 2.13%, rgba(254, 254, 227, 0) 97.11%), linear-gradient(106.36deg, rgba(247, 208, 196, 0.61) 27.2%, rgba(255, 201, 185, 0) 99.35%), linear-gradient(282.43deg, rgba(176, 250, 209, 0.589) 23.6%, rgba(76, 149, 108, 0) 97.39%);
   background-repeat: no-repeat;
   background-size: cover;
   min-height: 100vh;
   display: block;
   font-size: calc(10px + 2vmin);
   color: white;
-  padding:32px 64px;
+  padding: 32px 64px;
   position: relative;
 }
 
-@media only screen and (max-width: 900px){
-  .App{
+.light-theme {
+  /* Set the 'light' theme */
+  background: linear-gradient(
+      356.92deg,
+      #fefee31d 2.13%,
+      #fefecd66 2.13%,
+      #fefee300 97.11%
+    ),
+    linear-gradient(
+      106.36deg,
+      #f7d0c49c 27.2%,
+      #ffc9b900 99.35%
+    ),
+    linear-gradient(
+      282.43deg,
+      #b0fad196 23.6%,
+      #4c956c00 97.39%
+    );
+  --main--color: #2c2a2a;
+  --main--reverse--color: white;
+  --primary--color: #003618;
+}
+
+.dark-theme {
+  /* Set the 'dark' theme */
+  background: linear-gradient(270deg, #322424 0%, #112d14 0.01%, #100d0a 100%);
+  --main--color: white;
+  --main--reverse--color: #2c2a2a;
+  --primary--color: hsl(14, 98%, 80%);
+}
+
+@media only screen and (max-width: 900px) {
+  #app{
     padding: 24px 8px;
   }
-  .nav-bar{
+  .nav-bar {
     display: none;
   }
 }

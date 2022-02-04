@@ -7,11 +7,11 @@ import SocialMedia from "../social-media/social-media";
 
 const BodyAboutMe = () => {
   return (
-    <Container fluid="xl" className="body-container">
+    <Container fluid="xl" className="body-about-container">
       <Row className="align-items-center">
         <Col>
-          <div className="body-text">
-            <pre className="header">About Me</pre>
+          <div className="body-about-text">
+            <pre className="about-header">About Me</pre>
             <p>
               I ‘m Mobina Hoseini .I ‘m a UI & UX designer I enjoy turning
               complex problems into simple, beautiful and intuitive designs. I
@@ -27,7 +27,7 @@ const BodyAboutMe = () => {
           </div>
         </Col>
         <Col>
-          <div className="body-img">
+          <div className="body-about-img">
             <img src={heroImg} alt="heroImg" />
           </div>
         </Col>

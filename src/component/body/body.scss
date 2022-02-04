@@ -18,8 +18,8 @@
   text-align: justify;
   .header {
     font-family: "Header";
-    font-size: 36px;
-    color: $black;
+    font-size: 36px; 
+    color: $main;
   }
 }
 
@@ -28,7 +28,7 @@
   margin-top: 40px;
   button {
     background-color: $primary;
-    color: $white;
+    color: $main-reverse;
     border: 0;
     padding: 12px 16px;
     font-family: "Button";
@@ -45,8 +45,7 @@
   .body-text {
     .header {
       text-align: center;
-      font-size: 28px !important;
-      color: $black;
+      font-size: 28px;
     }
   }
 
@@ -72,3 +71,13 @@
     display: none;
   }
 }
+
+// @media only screen and (max-width: 900px) {
+//   .body-img {
+//     justify-content: center;
+//     img {
+//       width: 520px;
+//       height: 520px;
+//     }
+//   }
+// }
