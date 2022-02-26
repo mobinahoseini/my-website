@@ -6,6 +6,7 @@ import BodyAboutMe from "./component/body-aboutme/body-about-me";
 import Nav from "./component/nav/nav";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import changeTheme from './changeTheme';
+import BodyContactMe from "./component/body-contact-me/body-contact-me";
 
 let theme = 'light-theme';
 const toggleThemes = () => {
@@ -34,6 +35,15 @@ function App() {
           <div id="app" className="light-theme">
             <Header onClickMethod={toggleThemes} />
             <BodyAboutMe />
+            <div className="nav-bar">
+              <Nav />
+            </div>
+          </div>
+        </Route>
+        <Route path="/contact-me">
+          <div id="app" className="light-theme">
+            <Header onClickMethod={toggleThemes} />
+            <BodyContactMe />
             <div className="nav-bar">
               <Nav />
             </div>

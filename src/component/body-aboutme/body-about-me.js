@@ -1,5 +1,5 @@
 import "./body-about-me.scss";
-import heroImg from "../../Assets/hero-img-2.png";
+import heroImg from "../../Assets/about-me-img-2.png";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
@@ -13,7 +13,7 @@ const BodyAboutMe = () => {
           <div className="body-about-text">
             <pre className="about-header">About Me</pre>
             <p>
-              I ‘m Mobina Hoseini .I ‘m a UI & UX designer I enjoy turning
+              I‘m Mobina Hoseini .I‘m a UI & UX designer I enjoy turning
               complex problems into simple, beautiful and intuitive designs. I
               am a Electrical Engineering graduate and later switched to the
               awesome world of designing digital interfaces and products

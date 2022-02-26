@@ -23,7 +23,7 @@ const Switch = ({ onClickMethod }) => {
           </svg>
         </div>
       </Col>
-      <Col md="auto">
+      <Col md="auto" className="switch-col">
         <div className="theme-switcher">
           <label class="switch">
             <input onClick={onClickMethod} type="checkbox" />

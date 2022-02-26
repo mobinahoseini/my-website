@@ -45,14 +45,14 @@ html {
     );
   --main--color: #2c2a2a;
   --main--reverse--color: white;
-  --primary--color: #003618;
+  --primary--color: hsl(147, 100%, 11%);
 }
 
 .dark-theme {
   /* Set the 'dark' theme */
   background: linear-gradient(270deg, #322424 0%, #112d14 0.01%, #100d0a 100%);
   --main--color: white;
-  --main--reverse--color: #2c2a2a;
+  --main--reverse--color: hsl(0, 0%, 7%);
   --primary--color: hsl(14, 98%, 80%);
 }
 

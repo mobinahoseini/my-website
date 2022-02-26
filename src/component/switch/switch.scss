@@ -77,8 +77,20 @@ input:checked + .slider:before {
   border-radius: 50%;
 }
 
-//   @media only screen and (max-width: 600px){
-//   .row-theme{
-//     display: none !important;
-//   }
-// }
+@media only screen and (max-width: 900px) {
+  .row-theme {
+    display: inline !important;
+  }
+  .sun,
+  .moon,
+  .theme-switcher {
+    display: inline;
+  }
+  .moon-col{
+    display: inline;
+  }
+
+  .switch-col{
+    display: inline;
+  }
+}

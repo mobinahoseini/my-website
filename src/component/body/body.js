@@ -1,5 +1,5 @@
 import "./body.scss";
-import heroImg from "../../Assets/hero-img.png";
+import heroImg from "../../Assets/home-img.png";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
@@ -16,7 +16,7 @@ const Body = () => {
             </p>
           </div>
           <div className="body-action">
-            <button> See My Works </button>
+            <a target="_blank" rel="noreferrer"  href="https://www.linkedin.com/in/mobina-hoseini/"> See My Experiences </a>
           </div>
         </Col>
         <Col>

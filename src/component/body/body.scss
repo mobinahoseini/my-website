@@ -26,13 +26,17 @@
 .body-action {
   text-align: left;
   margin-top: 40px;
-  button {
+  a {
     background-color: $primary;
+    text-decoration: none;
     color: $main-reverse;
     border: 0;
-    padding: 12px 16px;
+    padding: 14px 16px;
     font-family: "Button";
     font-size: 20px;
+  }
+  a:hover{
+    color: white;
   }
 }
 
@@ -44,8 +48,8 @@
 
   .body-text {
     .header {
-      text-align: center;
-      font-size: 28px;
+      text-align: center !important;
+      font-size: 24px !important;
     }
   }
 
@@ -53,8 +57,8 @@
     text-align: center;
     margin-top: 28px;
     margin-bottom: 16px;
-    button {
-      padding: 8px 12px;
+    a {
+      padding: 10px 12px;
       font-size: 16px;
     }
   }
@@ -62,8 +66,8 @@
   .body-img {
     justify-content: center;
     img {
-      width: 320px;
-      height: 320px;
+      width: 320px !important;
+      height: 320px !important;
     }
   }
 
@@ -72,12 +76,18 @@
   }
 }
 
-// @media only screen and (max-width: 900px) {
-//   .body-img {
-//     justify-content: center;
-//     img {
-//       width: 520px;
-//       height: 520px;
-//     }
-//   }
-// }
+@media only screen and (max-width: 1200px) {
+  .body-text {
+    .header {
+      text-align: left;
+      font-size: 32px;
+    }
+  }
+  .body-img {
+    justify-content: center;
+    img {
+      width: 400px;
+      height: 400px;
+    }
+  }
+}

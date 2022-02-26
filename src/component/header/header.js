@@ -6,6 +6,9 @@ import Col from "react-bootstrap/Col";
 import SideNav from "../side-nav/side-nav";
 
 const Header = ({ onClickMethod }) => {
+      function showMenu() {
+        document.getElementById("myNav").style.display = "block";
+      }
   return (
     <Container fluid="xl">
       <Row>
@@ -32,8 +35,8 @@ const Header = ({ onClickMethod }) => {
             <Switch onClickMethod={onClickMethod} />
           </div>
           <div className="side-navbar">
-            <SideNav />
             <svg
+              onClick={showMenu}
               width="32"
               height="33"
               viewBox="0 0 32 33"
@@ -45,6 +48,7 @@ const Header = ({ onClickMethod }) => {
                 className="svg-logo"
               />
             </svg>
+            <SideNav onClickMethod={onClickMethod} />
           </div>
         </Col>
       </Row>

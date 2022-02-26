@@ -2,3 +2,13 @@
 .img{
     fill: $main;
 }
+
+@media only screen and (max-width: 900px) {
+    .social-media-list{
+        display: flex;
+        justify-content: center;
+    }
+    .social-media{
+        float: right;
+    }
+}
