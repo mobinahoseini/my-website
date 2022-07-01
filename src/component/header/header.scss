@@ -12,9 +12,59 @@
   fill: $main;
 }
 
-@media only screen and (max-width: 900px) {
+.navbar-light .navbar-toggler{
+  color:transparent !important;
+  border-color:transparent !important;
+}
+
+.navbar{
+  padding-top: 0 !important;
+  padding-bottom: 0!important;
+}
+@media only screen and (max-width: 389px) {
   .sw {
     display: none !important;
+  }
+
+  .navbar{
+    padding-top: 0rem;
+    padding-bottom: 0rem;
+  }
+
+  .side-navbar {
+    display: flex;
+    justify-content: right;
+  }
+}
+
+@media only screen and (min-width: 389px) {
+  .sw {
+    display: none !important;
+  }
+
+  .navbar{
+    padding-top: 1rem !important;
+    padding-bottom: 1rem !important;
+  }
+
+  .side-navbar {
+    display: flex;
+    justify-content: right;
+  }
+}
+
+@media only screen and (min-width: 900px) {
+  .sw {
+    display: block !important;
+  }
+
+  .side-navbar {
+    display: none !important;
+  }
+
+  .navbar{
+    padding-top: 0rem !important;
+    padding-bottom: 0rem !important;
   }
 
   .side-navbar {

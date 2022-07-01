@@ -38,12 +38,12 @@ const BodyContactMe = () => {
                 <a
                   target="_blank"
                   rel="noreferrer"
-                  href="https://dribbble.com/Mobina5731"
+                  href="https://dribbble.com/mobina-hoseini"
                 >
-                  <img src={Dribble} alt="Instagram" />
+                  <img src={Dribble} alt="Dribble" />
                 </a>
                 <a
-                  href="https://dribbble.com/Mobina5731"
+                  href="https://dribbble.com/mobina-hoseini"
                   target="_blank"
                   rel="noreferrer"
                 >

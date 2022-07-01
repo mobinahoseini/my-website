@@ -13,7 +13,7 @@ const BodyAboutMe = () => {
           <div className="body-about-text">
             <pre className="about-header">About Me</pre>
             <p>
-              I‘m Mobina Hoseini .I‘m a UI & UX designer I enjoy turning
+              I‘m Mobina Hoseini .I‘m a UI & UX designer and UI developer. I enjoy turning
               complex problems into simple, beautiful and intuitive designs. I
               am a Electrical Engineering graduate and later switched to the
               awesome world of designing digital interfaces and products

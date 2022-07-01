@@ -19,7 +19,6 @@
     top: 25%;
     width: 100%;
     text-align: center;
-    // margin-top: 30px;
   }
   
   .overlay a {
@@ -35,20 +34,16 @@
     color: $main;
   }
 
+  .switch-side-nav{
+    margin-left: 25px;
+  }
+
   .header-side-nav {
     margin-top: 20px !important;
-    padding: 0px 18px;
-    align-items: center;
     .close-btn{
-      display: flex;
-      justify-content: right;
       .close-btn-color{
         fill:$main;
       }
-    }
-    .switch-side-nav{
-      display: flex;
-      justify-content: left;
     }
   }
   @media screen and (max-height: 450px) {

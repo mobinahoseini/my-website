@@ -18,7 +18,7 @@
   text-align: justify;
   .header {
     font-family: "Header";
-    font-size: 36px; 
+    font-size: 36px;
     color: $main;
   }
 }
@@ -35,28 +35,27 @@
     font-family: "Button";
     font-size: 20px;
   }
-  a:hover{
+  a:hover {
     color: white;
   }
 }
-
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 374px) {
   .body-container {
-    padding: 36px 0px;
+    padding: 28px 0px;
     align-items: center;
   }
 
   .body-text {
     .header {
-      text-align: center !important;
-      font-size: 24px !important;
+      text-align: center;
+      font-size: 24px;
     }
   }
 
   .body-action {
     text-align: center;
     margin-top: 28px;
-    margin-bottom: 16px;
+    margin-bottom: 36px;
     a {
       padding: 10px 12px;
       font-size: 16px;
@@ -66,8 +65,9 @@
   .body-img {
     justify-content: center;
     img {
-      width: 320px !important;
-      height: 320px !important;
+      justify-content: center;
+      width: 320px;
+      height: 320px;
     }
   }
 
@@ -76,18 +76,93 @@
   }
 }
 
-@media only screen and (max-width: 1200px) {
+@media only screen and (min-width: 374px) {
+  .body-container {
+    padding: 52px 0px;
+    align-items: center;
+  }
+
   .body-text {
     .header {
-      text-align: left;
+      font-size: 28px;
+      text-align: center;
+    }
+  }
+
+  .body-action {
+    text-align: center;
+    margin-top: 28px;
+    margin-bottom: 48px;
+    a {
+      padding: 10px 12px;
+      font-size: 16px;
+    }
+  }
+
+  .body-img {
+    justify-content: center;
+    img {
+      justify-content: center;
+      width: 360px;
+      height: 360px;
+    }
+  }
+
+  .soci-med {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 588px) {
+  .body-text {
+    .header {
+      text-align: center;
       font-size: 32px;
     }
   }
   .body-img {
     justify-content: center;
     img {
-      width: 400px;
-      height: 400px;
+      width: 500px;
+      height: 500px;
+    }
+  }
+  .body-action {
+    a {
+      padding: 12px 14px;
+      font-size: 18px;
+    }
+  }
+  .soci-med {
+    display: block;
+  }
+}
+
+@media only screen and (min-width: 745px) {
+  .body-img {
+    justify-content: center;
+    img {
+      width: 600px;
+      height: 600px;
+    }
+  }
+}
+
+@media only screen and (min-width: 845px) {
+  .body-text {
+    .header {
+      text-align: left;
+      font-size: 28px;
+    }
+  }
+  .body-action {
+    text-align: left;
+  }
+  .body-img {
+    justify-content: center;
+    img {
+      width: 450px;
+      height: 450px;
     }
   }
 }

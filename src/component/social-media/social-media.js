@@ -4,7 +4,7 @@ const SocialMedia = () => {
   return (
     <div className="social-media-list">
       <div className="social-media">
-        <a href="https://www.instagram.com/__mobina__hoseini/">
+        <a href="https://www.instagram.com/__mobina__hoseini/" target="_blank" rel="noreferrer">
           <svg
             width="24"
             height="24"
@@ -44,7 +44,7 @@ const SocialMedia = () => {
       </div>
 
       <div className="social-media">
-        <a href="https://www.linkedin.com/in/mobina-hoseini/">
+        <a href="https://www.linkedin.com/in/mobina-hoseini/" target="_blank" rel="noreferrer"> 
           <svg
             width="24"
             height="24"
@@ -131,7 +131,7 @@ const SocialMedia = () => {
         </a>
       </div> */}
       <div className="social-media">
-        <a href="https://dribbble.com/Mobina5731">
+        <a href="https://dribbble.com/mobina-hoseini" target="_blank" rel="noreferrer">
           <svg
             width="24"
             height="25"
@@ -160,7 +160,7 @@ const SocialMedia = () => {
         </a>
       </div>
       <div className="social-media">
-        <a href="https://github.com/mobinahoseini/">
+        <a href="https://github.com/mobinahoseini/" target="_blank" rel="noreferrer">
           <svg
             width="26"
             height="26"
