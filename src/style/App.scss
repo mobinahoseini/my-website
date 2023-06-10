@@ -7,6 +7,7 @@ html {
   user-select: none;
   overscroll-behavior: none;
   margin: 0;
+  padding: 0;
   font-family: "Header", "Button", "Body-1", "Body-2", "Header-Mobile",
     "Button-Mobile", "Caption";
   -webkit-font-smoothing: antialiased;
@@ -23,6 +24,9 @@ html {
   color: white;
   padding: 32px 64px;
   position: relative;
+  height: 100vh; /* for shorter content */
+  display: flex;
+  flex-direction: column;
 }
 
 .light-theme {
@@ -59,6 +63,7 @@ html {
 @media only screen and (max-width: 900px) {
   #app{
     padding: 24px 8px;
+    height: 100%;
   }
   .nav-bar {
     display: none;

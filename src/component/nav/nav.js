@@ -12,11 +12,11 @@ const Nav = ({closeNav}) => {
           <Link to= "/" onClick={closeNav}>Home</Link>
         </Col>
         <Col md="auto" className="text-nav">
-          <Link to="/about-me" onClick={closeNav}>About me</Link>
+          <Link to="/about-me" onClick={closeNav}>My experince</Link>
         </Col>
-        {/* <Col md="auto" className="text-nav">
+        <Col md="auto" className="text-nav">
           <Link to="/my-works">My works</Link>
-        </Col> */}
+        </Col>
         <Col md="auto" className="text-nav">
           <Link to="/contact-me" onClick={closeNav}>Contact me</Link>
         </Col>

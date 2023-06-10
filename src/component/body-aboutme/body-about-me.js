@@ -24,6 +24,9 @@ const BodyAboutMe = () => {
               enjoy using my skill-set to empower people to accomplish their
               goals
             </p>
+            <p>
+
+            </p>
           </div>
         </Col>
         <Col>

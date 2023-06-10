@@ -3,6 +3,11 @@
 
 .body-about-container {
   padding: 56px 0px;
+  padding: 56px 0px;
+  flex: 1;
+  display: flex;
+  /*ie10*/
+  -ms-flex: 1 1 auto; /*needs both shrink and grow*/
 }
 
 .body-about-img {
@@ -31,6 +36,7 @@
 @media only screen and (max-width: 900px) {
   .body-about-container {
     padding: 36px 0px;
+    display: block !important;
   }
 
   .body-about-text {

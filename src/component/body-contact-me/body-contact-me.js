@@ -13,10 +13,11 @@ const BodyContactMe = () => {
   return (
     <Container fluid="xl" className="body-contact-container">
       <Row className="align-items-center">
-        <Col>
+        <Col className="social-media-col">
           <div className="body-contact-text">
             <pre className="contact-header">Contact Me</pre>
-            <p>We can get in touch together via this:</p>
+            <p>We can get in touch together via this:
+            </p>
             <ul>
               <li className="instagram">
                 <a

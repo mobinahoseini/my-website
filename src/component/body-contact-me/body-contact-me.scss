@@ -3,11 +3,21 @@
 
 .body-contact-container {
   padding: 56px 0px;
+  flex: 1;
+  display: flex;
+  // /*ie10*/
+  -ms-flex: 1 1 auto;
+  // /*needs both shrink and grow*/
+}
+
+.social-media-col {
+  width: 100vh !important;
 }
 
 .body-contact-img {
   display: flex;
   justify-content: right;
+
   img {
     width: 450px;
     height: 450px;
@@ -21,34 +31,35 @@ ul {
 li {
   list-style: none;
   margin-top: 18px;
+
   img {
     width: 40px;
     height: 40px;
   }
 }
 
-.instagram > a {
+.instagram>a {
   color: #d822a1 !important;
   text-decoration: none;
   font-size: 22px;
   padding-right: 8px;
 }
 
-.linkedin > a {
+.linkedin>a {
   color: #2b8beb !important;
   text-decoration: none;
   font-size: 22px;
   padding-right: 8px;
 }
 
-.dribbble > a {
+.dribbble>a {
   color: #f24e8c !important;
   text-decoration: none;
   font-size: 22px;
   padding-right: 8px;
 }
 
-.github > a {
+.github>a {
   color: #8f56df !important;
   text-decoration: none;
   font-size: 22px;
@@ -57,11 +68,13 @@ li {
 
 .body-contact-text {
   text-align: justify;
+
   p {
     color: $main;
     font-family: "Body-1";
     font-size: 26px;
   }
+
   .contact-header {
     font-family: "Header";
     font-size: 36px;
@@ -72,39 +85,45 @@ li {
 @media only screen and (max-width: 900px) {
   .body-contact-container {
     padding: 36px 0px;
+    display: block;
   }
+
   li {
     list-style: none;
+
     img {
       width: 35px;
       height: 35px;
     }
   }
 
-  .instagram, .linkedin, .dribbble, .github{
+  .instagram,
+  .linkedin,
+  .dribbble,
+  .github {
     float: left;
     width: 100%;
   }
 
-  .instagram > a {
+  .instagram>a {
     color: #d822a1 !important;
     text-decoration: none;
     font-size: 18px;
   }
 
-  .linkedin > a {
+  .linkedin>a {
     color: #2b8beb !important;
     text-decoration: none;
     font-size: 18px;
   }
 
-  .dribbble > a {
+  .dribbble>a {
     color: #f24e8c !important;
     text-decoration: none;
     font-size: 18px;
   }
 
-  .github > a {
+  .github>a {
     color: #8f56df !important;
     text-decoration: none;
     font-size: 18px;
@@ -114,6 +133,7 @@ li {
     p {
       font-size: 18px;
     }
+
     .contact-header {
       font-family: "Header";
       font-size: 36px;
@@ -123,6 +143,7 @@ li {
 
   .body-contact-img {
     justify-content: center;
+
     img {
       width: 320px;
       height: 320px;

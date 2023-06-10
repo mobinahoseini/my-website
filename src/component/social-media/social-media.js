@@ -3,7 +3,7 @@ import "./social-media.scss";
 const SocialMedia = () => {
   return (
     <div className="social-media-list">
-      <div className="social-media">
+      {/* <div className="social-media">
         <a href="https://www.instagram.com/__mobina__hoseini/" target="_blank" rel="noreferrer">
           <svg
             width="24"
@@ -41,7 +41,7 @@ const SocialMedia = () => {
             </defs>
           </svg>
         </a>
-      </div>
+      </div> */}
 
       <div className="social-media">
         <a href="https://www.linkedin.com/in/mobina-hoseini/" target="_blank" rel="noreferrer"> 
@@ -87,7 +87,7 @@ const SocialMedia = () => {
           </svg>
         </a>
       </div>
-      {/* <div className="social-media">
+      <div className="social-media">
         <a href="behance">
           <svg
             width="24"
@@ -129,7 +129,7 @@ const SocialMedia = () => {
             </defs>
           </svg>
         </a>
-      </div> */}
+      </div>
       <div className="social-media">
         <a href="https://dribbble.com/mobina-hoseini" target="_blank" rel="noreferrer">
           <svg

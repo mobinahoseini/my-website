@@ -1,7 +1,8 @@
 @import "../../style/color";
 
 .text-nav {
-  padding: 0px 20px;
+  padding: 20px 0px;
+  margin: 0 16px;
 
   a {
     color: $main;
@@ -10,10 +11,20 @@
     cursor: pointer;
     text-decoration: none;
   }
+
   a:hover {
     border-bottom: 2px solid $primary;
     font-family: "Button";
-    color:$primary;
+    color: $primary;
+    -webkit-transition: 0.4s;
+    transition: 0.4s;
+  }
+
+  a:active {
+    border-bottom: 2px solid $primary !important;
+    font-family: "Button";
+    color: $primary;
+    transform: translateY(-5px);
     -webkit-transition: 0.4s;
     transition: 0.4s;
   }

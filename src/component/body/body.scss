@@ -3,11 +3,17 @@
 
 .body-container {
   padding: 56px 0px;
+  flex: 1;
+  display: flex !important;
+  /*ie10*/
+  -ms-flex: 1 1 auto;
+  /*needs both shrink and grow*/
 }
 
 .body-img {
   display: flex;
   justify-content: right;
+
   img {
     width: 450px;
     height: 450px;
@@ -16,6 +22,7 @@
 
 .body-text {
   text-align: justify;
+
   .header {
     font-family: "Header";
     font-size: 36px;
@@ -26,6 +33,7 @@
 .body-action {
   text-align: left;
   margin-top: 40px;
+
   a {
     background-color: $primary;
     text-decoration: none;
@@ -35,14 +43,18 @@
     font-family: "Button";
     font-size: 20px;
   }
+
   a:hover {
     color: white;
   }
 }
-@media only screen and (max-width: 374px) {
+
+@media only screen and (max-width: 900px) {
   .body-container {
-    padding: 28px 0px;
+    padding: 64px 0px;
     align-items: center;
+    display: block !important;
+    flex: 1;
   }
 
   .body-text {
@@ -56,6 +68,7 @@
     text-align: center;
     margin-top: 28px;
     margin-bottom: 36px;
+
     a {
       padding: 10px 12px;
       font-size: 16px;
@@ -64,6 +77,7 @@
 
   .body-img {
     justify-content: center;
+
     img {
       justify-content: center;
       width: 320px;
@@ -76,93 +90,118 @@
   }
 }
 
-@media only screen and (min-width: 374px) {
-  .body-container {
-    padding: 52px 0px;
-    align-items: center;
-  }
 
-  .body-text {
-    .header {
-      font-size: 28px;
-      text-align: center;
-    }
-  }
+// @media only screen and (min-width: 374px) {
 
-  .body-action {
-    text-align: center;
-    margin-top: 28px;
-    margin-bottom: 48px;
-    a {
-      padding: 10px 12px;
-      font-size: 16px;
-    }
-  }
+//   .body-container {
+//     padding: 52px 0px;
+//     align-items: center;
+//     display: block !important;
+//   }
 
-  .body-img {
-    justify-content: center;
-    img {
-      justify-content: center;
-      width: 360px;
-      height: 360px;
-    }
-  }
+//   .body-text {
+//     .header {
+//       font-size: 28px;
+//       text-align: center;
+//     }
+//   }
 
-  .soci-med {
-    display: none;
-  }
-}
+//   .body-action {
+//     text-align: center;
+//     margin-top: 28px;
+//     margin-bottom: 48px;
 
-@media only screen and (min-width: 588px) {
-  .body-text {
-    .header {
-      text-align: center;
-      font-size: 32px;
-    }
-  }
-  .body-img {
-    justify-content: center;
-    img {
-      width: 500px;
-      height: 500px;
-    }
-  }
-  .body-action {
-    a {
-      padding: 12px 14px;
-      font-size: 18px;
-    }
-  }
-  .soci-med {
-    display: block;
-  }
-}
+//     a {
+//       padding: 10px 12px;
+//       font-size: 16px;
+//     }
+//   }
 
-@media only screen and (min-width: 745px) {
-  .body-img {
-    justify-content: center;
-    img {
-      width: 600px;
-      height: 600px;
-    }
-  }
-}
+//   .body-img {
+//     justify-content: center;
 
-@media only screen and (min-width: 845px) {
-  .body-text {
-    .header {
-      text-align: left;
-      font-size: 28px;
-    }
-  }
-  .body-action {
-    text-align: left;
-  }
-  .body-img {
-    justify-content: center;
-    img {
-      width: 450px;
-      height: 450px;
-    }
-  }
-}
+//     img {
+//       justify-content: center;
+//       width: 360px;
+//       height: 360px;
+//     }
+//   }
+
+//   .soci-med {
+//     display: none;
+//   }
+// }
+
+// @media only screen and (min-width: 588px) {
+//   .body-container {
+//     display: block !important;
+//   }
+
+//   .body-text {
+//     .header {
+//       text-align: center;
+//       font-size: 32px;
+//     }
+//   }
+
+//   .body-img {
+//     justify-content: center;
+
+//     img {
+//       width: 500px;
+//       height: 500px;
+//     }
+//   }
+
+//   .body-action {
+//     a {
+//       padding: 12px 14px;
+//       font-size: 18px;
+//     }
+//   }
+
+//   .soci-med {
+//     display: block;
+//   }
+// }
+
+// @media only screen and (min-width: 745px) {
+//   .body-container {
+//     display: block !important;
+//   }
+
+//   .body-img {
+//     justify-content: center;
+
+//     img {
+//       width: 600px;
+//       height: 600px;
+//     }
+//   }
+// }
+
+// @media only screen and (min-width: 845px) {
+//   .body-container {
+//     display: block !important;
+//   }
+
+//   .body-text {
+//     .header {
+//       text-align: left;
+//       font-size: 28px;
+//     }
+//   }
+
+//   .body-action {
+//     text-align: left;
+//   }
+
+//   .body-img {
+//     justify-content: center;
+
+//     img {
+//       width: 450px;
+//       height: 450px;
+//     }
+//   }
+// }
