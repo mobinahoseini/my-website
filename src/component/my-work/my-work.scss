@@ -1,0 +1,75 @@
+@import "../../style/color";
+@import "../../style/font";
+
+.body-container {
+  padding: 56px 0px;
+  flex: 1;
+  display: flex;
+  align-items: center;
+  /*ie10*/
+  -ms-flex: 1 1 auto;
+  /*needs both shrink and grow*/
+}
+
+.slider-style{
+  padding:36px 260px 0px;
+  height: 400px;
+  flex-direction: column;
+  flex: 1;
+}
+
+li {
+  width: 800px !important;
+  margin-right: 20px;
+  img {
+    width: 800px;
+    height: 600px;
+  }
+  
+}
+.body-text {
+  text-align: justify;
+
+  .header {
+    font-family: "Header";
+    font-size: 36px;
+    color: $main;
+  }
+}
+
+
+@media only screen and (max-width: 1440px) {
+  
+
+  .body-container {
+    padding: 64px 0px;
+    display: flex;
+    align-items: center;
+    flex: 1;
+  }
+  .slider-style{
+  padding:36px 20px 0px;
+  height: 400px;
+  flex-direction: column;
+}
+
+li {
+  width: 450px !important;
+  margin-right: 20px;
+  img {
+    width: 450px;
+    height: 250px;
+  }
+  
+}
+  .body-text {
+    .header {
+      text-align: left !important;
+      font-size: 32px;
+    }
+  }
+
+  .soci-med {
+    display: none;
+  }
+}

@@ -28,9 +28,10 @@ ul {
   padding: 0px !important;
 }
 
-li {
+.social-list {
   list-style: none;
   margin-top: 18px;
+  width: 100% !important;
 
   img {
     width: 40px;
@@ -88,8 +89,9 @@ li {
     display: block;
   }
 
-  li {
+  .social-list {
     list-style: none;
+    width: 100% !important;
 
     img {
       width: 35px;
@@ -150,7 +152,7 @@ li {
     }
   }
 
-  .soci-med {
+  .social-media {
     display: none;
   }
 }

@@ -27,6 +27,7 @@
     font-family: "Header";
     font-size: 36px;
     color: $main;
+    text-align: left !important;
   }
 }
 
@@ -59,7 +60,7 @@
 
   .body-text {
     .header {
-      text-align: center;
+      text-align: center !important;
       font-size: 24px;
     }
   }

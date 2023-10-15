@@ -19,7 +19,7 @@ const BodyContactMe = () => {
             <p>We can get in touch together via this:
             </p>
             <ul>
-              <li className="instagram">
+              <li className="social-list instagram">
                 <a
                   target="_blank"
                   rel="noreferrer"
@@ -35,7 +35,7 @@ const BodyContactMe = () => {
                   Instagram
                 </a>
               </li>
-              <li className="dribbble">
+              <li className="social-list dribbble">
                 <a
                   target="_blank"
                   rel="noreferrer"
@@ -51,7 +51,7 @@ const BodyContactMe = () => {
                   Dribble
                 </a>
               </li>
-              <li className="linkedin">
+              <li className="social-list linkedin">
                 <a
                   target="_blank"
                   rel="noreferrer"
@@ -67,7 +67,7 @@ const BodyContactMe = () => {
                   Linkedin
                 </a>
               </li>
-              <li className="github">
+              <li className="social-list github">
                 <a
                   target="_blank"
                   rel="noreferrer"
@@ -91,8 +91,8 @@ const BodyContactMe = () => {
             <img src={heroImg} alt="heroImg" />
           </div>
         </Col>
-        <Col md="auto">
-          <div className="soci-med">
+        <Col lg="auto">
+          <div className="social-media">
             <SocialMedia />
           </div>
         </Col>
