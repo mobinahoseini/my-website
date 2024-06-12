@@ -1,25 +1,47 @@
-import './nav.scss';
-import { Link} from 'react-router-dom';
+import "./nav.scss";
+import { Link } from "react-router-dom";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
+import { useRouteMatch } from "react-router-dom/cjs/react-router-dom";
+import { useEffect } from "react";
 
-const Nav = ({closeNav}) => {
+const Nav = ({ closeNav }) => {
+  const router = useRouteMatch();
+
+  const navs = [
+    {
+      text: "Home",
+      path: "/",
+    },
+    {
+      text: "About Me",
+      path: "/about-me",
+    },
+    {
+      text: "My works",
+      path: "/my-works",
+    },
+    {
+      text: "Contact me",
+      path: "/contact-me",
+    },
+  ];
+  const path = router.path;
   return (
     <Container>
       <Row className="justify-content-center">
-        <Col md="auto" className="text-nav">
-          <Link to= "/" onClick={closeNav}>Home</Link>
-        </Col>
-        <Col md="auto" className="text-nav">
-          <Link to="/about-me" onClick={closeNav}>About Me</Link>
-        </Col>
-        <Col md="auto" className="text-nav">
-          <Link to="/my-works" onClick={closeNav}>My works</Link>
-        </Col>
-        <Col md="auto" className="text-nav">
-          <Link to="/contact-me" onClick={closeNav}>Contact me</Link>
-        </Col>
+        {navs.map((nav) => (
+          <Col md="auto" className="text-nav">
+            <Link
+              to={nav.path}
+              onClick={closeNav}
+              className={path === nav.path ? "active" : ""}
+            >
+              {nav.text}
+            </Link>
+          </Col>
+        ))}
       </Row>
     </Container>
   );

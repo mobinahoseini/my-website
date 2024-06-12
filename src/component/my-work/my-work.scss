@@ -12,18 +12,19 @@
 }
 
 .slider-style{
-  padding:36px 260px 0px;
+  padding:36px 64px 0px;
   height: 400px;
   flex-direction: column;
   flex: 1;
 }
 
 li {
-  width: 800px !important;
+  width: 600px !important;
   margin-right: 20px;
+  margin-bottom: 30px;
   img {
-    width: 800px;
-    height: 600px;
+    width: 600px;
+    height: 380px;
   }
   
 }
@@ -49,7 +50,7 @@ li {
   }
   .slider-style{
   padding:36px 20px 0px;
-  height: 400px;
+  min-height: 100vh;
   flex-direction: column;
 }
 
@@ -64,12 +65,12 @@ li {
 }
   .body-text {
     .header {
-      text-align: left !important;
+      text-align: left;
       font-size: 32px;
     }
   }
 
-  .soci-med {
-    display: none;
-  }
+  // .soci-med {
+  //   display: none;
+  // }
 }

@@ -1,6 +1,6 @@
 import "./body.scss";
 import SocialMedia from "../social-media/social-media";
-import heroImg from "../../Assets/home-img.png";
+import heroImg from "../../Assets/home-img2.png";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
@@ -11,12 +11,15 @@ const Body = () => {
       <Row className="align-items-center">
         <Col>
           <div className="body-text">
-            <p className="header">
+            <p className="header-body">
               I design & develop experiences that make people’ s lives simple
             </p>
           </div>
           <div className="body-action">
-            <a target="_blank" rel="noreferrer"  href="https://www.linkedin.com/in/mobina-hoseini/"> See My Experiences </a>
+            <a rel="noreferrer" href="/my-works">
+              {" "}
+              See My Works{" "}
+            </a>
           </div>
         </Col>
         <Col>

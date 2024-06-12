@@ -1,5 +1,5 @@
 import "./body-about-me.scss";
-import heroImg from "../../Assets/about-me-img-2.png";
+import heroImg from "../../Assets/33 (1).png";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
@@ -13,19 +13,13 @@ const BodyAboutMe = () => {
           <div className="body-about-text">
             <pre className="about-header">About Me</pre>
             <p>
-              I‘m Mobina Hoseini .I‘m a UI & UX designer and UI developer. I enjoy turning
-              complex problems into simple, beautiful and intuitive designs. I
-              am a Electrical Engineering graduate and later switched to the
-              awesome world of designing digital interfaces and products
-            </p>
-            <p>
-              I think understanding the human experience is essential for
-              creating useful and effective products that make life easier. I
-              enjoy using my skill-set to empower people to accomplish their
-              goals
-            </p>
-            <p>
-
+              Experienced Product Designer with 3+ years of success in creating
+              intuitive, visually compelling designs. Skilled in translating
+              business needs into user-centric solutions, leveraging a
+              background in electrical engineering and extensive digital product
+              design experience. Proficient in team leadership, efficient design
+              processes, and documentation management to consistently deliver
+              exceptional user experiences and drive business growth.
             </p>
           </div>
         </Col>
@@ -35,7 +29,7 @@ const BodyAboutMe = () => {
           </div>
         </Col>
         <Col md="auto">
-          <div className="soci-med">
+          <div className="soci-med-aboutme">
             <SocialMedia />
           </div>
         </Col>

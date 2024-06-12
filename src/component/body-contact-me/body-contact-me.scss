@@ -4,7 +4,7 @@
 .body-contact-container {
   padding: 56px 0px;
   flex: 1;
-  display: flex;
+  // display: flex;
   // /*ie10*/
   -ms-flex: 1 1 auto;
   // /*needs both shrink and grow*/
@@ -19,8 +19,8 @@
   justify-content: right;
 
   img {
-    width: 450px;
-    height: 450px;
+    width: 400px;
+    height: 400px;
   }
 }
 
@@ -40,7 +40,7 @@ ul {
 }
 
 .instagram>a {
-  color: #d822a1 !important;
+  color: #ff0000 !important;
   text-decoration: none;
   font-size: 22px;
   padding-right: 8px;
@@ -52,21 +52,6 @@ ul {
   font-size: 22px;
   padding-right: 8px;
 }
-
-.dribbble>a {
-  color: #f24e8c !important;
-  text-decoration: none;
-  font-size: 22px;
-  padding-right: 8px;
-}
-
-.github>a {
-  color: #8f56df !important;
-  text-decoration: none;
-  font-size: 22px;
-  padding-right: 8px;
-}
-
 .body-contact-text {
   text-align: justify;
 
@@ -84,6 +69,11 @@ ul {
 }
 
 @media only screen and (max-width: 900px) {
+  .social-media-col {
+    width: 100vh !important;
+    margin-left: 0px;
+  }
+
   .body-contact-container {
     padding: 36px 0px;
     display: block;
@@ -94,8 +84,8 @@ ul {
     width: 100% !important;
 
     img {
-      width: 35px;
-      height: 35px;
+      width: 30px;
+      height: 30px;
     }
   }
 
@@ -108,25 +98,13 @@ ul {
   }
 
   .instagram>a {
-    color: #d822a1 !important;
+    color: #ff0000 !important;
     text-decoration: none;
     font-size: 18px;
   }
 
   .linkedin>a {
     color: #2b8beb !important;
-    text-decoration: none;
-    font-size: 18px;
-  }
-
-  .dribbble>a {
-    color: #f24e8c !important;
-    text-decoration: none;
-    font-size: 18px;
-  }
-
-  .github>a {
-    color: #8f56df !important;
     text-decoration: none;
     font-size: 18px;
   }
@@ -152,7 +130,7 @@ ul {
     }
   }
 
-  .social-media {
+  .soci-med-contact {
     display: none;
   }
 }

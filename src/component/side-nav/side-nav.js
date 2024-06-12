@@ -34,7 +34,6 @@ const SideNav = ({ onClickMethod }) => {
                     className="close-btn-color"
                   />
                 </svg>
-                {/* <SideNav onClickMethod={onClickMethod} /> */}
               </div>
             </Navbar.Toggle>
           </Container>

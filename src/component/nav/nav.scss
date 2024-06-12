@@ -13,14 +13,13 @@
   }
 
   a:hover {
-    border-bottom: 2px solid $primary;
     font-family: "Button";
     color: $primary;
     -webkit-transition: 0.4s;
     transition: 0.4s;
   }
 
-  a:active {
+  a.active {
     border-bottom: 2px solid $primary !important;
     font-family: "Button";
     color: $primary;

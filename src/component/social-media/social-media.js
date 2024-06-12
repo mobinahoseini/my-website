@@ -46,9 +46,9 @@ const SocialMedia = () => {
       <div className="social-media">
         <a href="https://www.linkedin.com/in/mobina-hoseini/" target="_blank" rel="noreferrer"> 
           <svg
-            width="24"
-            height="24"
-            viewBox="0 0 24 24"
+            width="32"
+            height="32"
+            viewBox="0 0 32 32"
             fill="none"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -77,8 +77,8 @@ const SocialMedia = () => {
             <defs>
               <clipPath id="clip0_232_103">
                 <rect
-                  width="24"
-                  height="23.9955"
+                  width="32"
+                  height="32"
                   fill="white"
                   transform="translate(0 0.00415039)"
                 />
@@ -88,11 +88,11 @@ const SocialMedia = () => {
         </a>
       </div>
       <div className="social-media">
-        <a href="behance">
+        <a href="https://www.behance.net/mobina-hoseini" target="_blank" rel="noreferrer" >
           <svg
-            width="24"
-            height="24"
-            viewBox="0 0 24 24"
+            width="32"
+            height="32"
+            viewBox="0 0 32 32"
             xmlns="http://www.w3.org/2000/svg"
           >
             <g clip-path="url(#clip0_232_111)">
@@ -120,8 +120,8 @@ const SocialMedia = () => {
             <defs>
               <clipPath id="clip0_232_111">
                 <rect
-                  width="24"
-                  height="23.9963"
+                  width="32"
+                  height="32"
                   fill="white"
                   transform="translate(0 -0.000244141)"
                 />
@@ -133,9 +133,9 @@ const SocialMedia = () => {
       <div className="social-media">
         <a href="https://dribbble.com/mobina-hoseini" target="_blank" rel="noreferrer">
           <svg
-            width="24"
-            height="25"
-            viewBox="0 0 24 25"
+            width="32"
+            height="32"
+            viewBox="0 0 32 32"
             fill="none"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -149,8 +149,8 @@ const SocialMedia = () => {
             <defs>
               <clipPath id="clip0_232_119">
                 <rect
-                  width="24"
-                  height="24"
+                  width="32"
+                  height="32"
                   fill="white"
                   transform="translate(0 0.99585)"
                 />
@@ -162,9 +162,9 @@ const SocialMedia = () => {
       <div className="social-media">
         <a href="https://github.com/mobinahoseini/" target="_blank" rel="noreferrer">
           <svg
-            width="26"
-            height="26"
-            viewBox="0 0 26 25"
+            width="32"
+            height="32"
+            viewBox="0 0 32 32"
           >
             <g>
               <path
