@@ -12,7 +12,7 @@
 }
 
 .slider-style{
-  padding:36px 240px 0px;
+  padding:36px 120px 0px;
   height: 100vh;
   flex-direction: column;
   display: flex;
@@ -21,12 +21,12 @@
 }
 
 li {
-  width: 600px !important;
+  width: 350px !important;
   margin-right: 20px;
   margin-bottom: 30px;
   img {
-    width: 600px;
-    height: 23.75rem;
+    width: 350px;
+    height: 250px;
   }
   
 }
@@ -51,7 +51,7 @@ li {
     flex: 1;
   }
   .slider-style{
-  padding:36px 20px 0px;
+  padding:36px 64px 0px;
   // min-height: 100vh;
   flex-direction: column;
 }
@@ -75,4 +75,22 @@ li {
   // .soci-med {
   //   display: none;
   // }
+}
+
+@media only screen and (max-width: 900px) {
+  
+
+  .body-container {
+    padding: 64px 0px;
+    display: flex;
+    align-items: center;
+    flex: 1;
+  }
+  .slider-style{
+  padding:36px 20px 0px;
+  // min-height: 100vh;
+  flex-direction: column;
+}
+
+
 }
