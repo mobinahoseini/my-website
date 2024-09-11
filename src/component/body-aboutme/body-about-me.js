@@ -22,6 +22,16 @@ const BodyAboutMe = () => {
               exceptional user experiences and drive business growth.
             </p>
           </div>
+          <div className="body-action">
+            <a
+              rel="noreferrer"
+              target="_blank"
+              href="https://mob-cvs.s3.ir-thr-at1.arvanstorage.ir/CV.pdf"
+            >
+              {" "}
+              Download My resume{" "}
+            </a>
+          </div>
         </Col>
         <Col>
           <div className="body-about-img">
