@@ -1,4 +1,5 @@
 import "./body.scss";
+import { Link } from "react-router-dom";
 import SocialMedia from "../social-media/social-media";
 import heroImg from "../../Assets/home-img2.png";
 import Container from "react-bootstrap/Container";
@@ -16,10 +17,10 @@ const Body = () => {
             </p>
           </div>
           <div className="body-action">
-            <a rel="noreferrer" href="/my-works">
+            <Link rel="noreferrer" to="/my-works">
               {" "}
               See My Works{" "}
-            </a>
+            </Link>
           </div>
         </Col>
         <Col>

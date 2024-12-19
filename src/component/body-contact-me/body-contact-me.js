@@ -16,7 +16,7 @@ const BodyContactMe = () => {
         <Col className="social-media-col">
           <div className="body-contact-text">
             <pre className="contact-header">Contact Me</pre>
-            <p>We can get in touch together via this:</p>
+            <p>We can get in touch together via:</p>
             <ul>
               <li className="social-list instagram">
                 <a
@@ -31,7 +31,7 @@ const BodyContactMe = () => {
                   target="_blank"
                   rel="noreferrer"
                 >
-                  Email me
+                  Send me Email
                 </a>
               </li>
               <li className="social-list linkedin">

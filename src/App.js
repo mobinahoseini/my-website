@@ -5,18 +5,18 @@ import Body from "./component/body/body";
 import BodyAboutMe from "./component/body-aboutme/body-about-me";
 import Nav from "./component/nav/nav";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-import changeTheme from './changeTheme';
+import changeTheme from "./changeTheme";
 import BodyContactMe from "./component/body-contact-me/body-contact-me";
 import MyWork from "./component/my-work/my-work";
 
-let theme = 'light-theme';
+let theme = "dark-theme";
 const toggleThemes = () => {
-  if (theme === 'light-theme') {
-    changeTheme('dark-theme');
-    theme = 'dark-theme';
+  if (theme === "light-theme") {
+    changeTheme("dark-theme");
+    theme = "dark-theme";
   } else {
-    changeTheme('light-theme');
-    theme = 'light-theme'
+    changeTheme("light-theme");
+    theme = "light-theme";
   }
 };
 function App() {
@@ -24,7 +24,7 @@ function App() {
     <Router>
       <Switch>
         <Route exact path="/">
-          <div id="app" className="light-theme">
+          <div id="app" className="dark-theme">
             <Header onClickMethod={toggleThemes} />
             <Body />
             <div className="nav-bar">
@@ -33,7 +33,7 @@ function App() {
           </div>
         </Route>
         <Route path="/about-me">
-          <div id="app" className="light-theme">
+          <div id="app" className="dark-theme">
             <Header onClickMethod={toggleThemes} />
             <BodyAboutMe />
             <div className="nav-bar">
@@ -42,7 +42,7 @@ function App() {
           </div>
         </Route>
         <Route path="/contact-me">
-          <div id="app" className="light-theme">
+          <div id="app" className="dark-theme">
             <Header onClickMethod={toggleThemes} />
             <BodyContactMe />
             <div className="nav-bar">
@@ -51,7 +51,7 @@ function App() {
           </div>
         </Route>
         <Route path="/my-works">
-          <div id="app" className="light-theme">
+          <div id="app" className="dark-theme">
             <Header onClickMethod={toggleThemes} />
             <MyWork />
             <div className="nav-bar">
